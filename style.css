@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+background-image: url("../image/background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-blend-mode:luminosity;
+backdrop-filter: 10px;
+}
+#Navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+#Navbar .scrolled {
+    background: black;
+    opacity: 0.9;
+    
+}
+
+.nav-item1{
+color: black;
+font-weight:bold;
+text-decoration:wavy;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.nav-item1:hover{
+    font-style: italic;
+    background-color: #4b1f29;
+    border-radius: 50%;
+    color: #CCAA91 !important;
+}
+.section1{
+    background: transparent;
+}
+.card{
+margin-top: 20px;
+margin-right: 20px;
+background:transparent;
+color:  rgba(160, 27, 49, 0.555);
+border-style: hidden;
+font-weight: bold;
+}
+.card:hover{
+    box-sizing: border-box !important;
+    box-shadow: #4b1f29 !important;
+}
+.card1{
+    border-radius: 50%;
+}
+#about{
+
+} 
+    
